@@ -30,7 +30,7 @@ or download the css on github and include in your project.
 .mn-wi9  {  min-width: 96rem; }
 .mn-wi10 {  min-width: 128rem; }
 
-@include break(not-small) {
+@media screen and (min-width: 48em) {
   .mn-wi1-ns  {  min-width: 1rem; }
   .mn-wi2-ns  {  min-width: 2rem; }
   .mn-wi3-ns  {  min-width: 4rem; }
@@ -43,7 +43,7 @@ or download the css on github and include in your project.
   .mn-wi10-ns {  min-width: 128rem; }
 }
 
-@include break(medium) {
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .mn-wi1-m  {  min-width: 1rem; }
   .mn-wi2-m  {  min-width: 2rem; }
   .mn-wi3-m  {  min-width: 4rem; }
@@ -56,7 +56,7 @@ or download the css on github and include in your project.
   .mn-wi10-m {  min-width: 128rem; }
 }
 
-@include break(large) {
+@media screen and (min-width: 64em)  {
   .mn-wi1-l  {  min-width: 1rem; }
   .mn-wi2-l  {  min-width: 2rem; }
   .mn-wi3-l  {  min-width: 4rem; }
