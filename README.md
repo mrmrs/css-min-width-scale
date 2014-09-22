@@ -20,7 +20,8 @@ View on [npm](https://www.npmjs.org/package/css-min-width-scale)
 ## File Size
 
 1.5K min-width-scale.css
-1.1K min-width-scale.min.css
+1.1K min-width-scale.min.css 
+239B minified and gzipped
 
 ## The Code
 ```
