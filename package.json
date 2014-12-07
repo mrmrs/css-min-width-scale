@@ -1,7 +1,7 @@
 {
   "name": "css-min-width-scale",
   "style": "min-width-scale.css",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "http://github.com/mrmrs/css-min-width-scale",
   "description": "Css module of single purpose classes for min width scale",
   "keywords": [
