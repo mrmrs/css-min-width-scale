@@ -1,3 +1,9 @@
+/* Media Queries */
+
+@custom-media --breakpoint-not-small (min-width: 48em);
+@custom-media --breakpoint-medium (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large (min-width: 64em);
+
 /*
    MIN WIDTH - SCALE
 */
@@ -12,8 +18,9 @@
 .mn-wi8  {  min-width: 64rem; }
 .mn-wi9  {  min-width: 96rem; }
 .mn-wi10 {  min-width: 128rem; }
+.mn-wi-auto {  min-width: auto; }
 
-@media screen and (min-width: 48em) {
+@media (--breakpoint-not-small) {
   .mn-wi1-ns  {  min-width: 1rem; }
   .mn-wi2-ns  {  min-width: 2rem; }
   .mn-wi3-ns  {  min-width: 4rem; }
@@ -26,7 +33,7 @@
   .mn-wi10-ns {  min-width: 128rem; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media (--breakpoint-medium) {
   .mn-wi1-m  {  min-width: 1rem; }
   .mn-wi2-m  {  min-width: 2rem; }
   .mn-wi3-m  {  min-width: 4rem; }
@@ -39,7 +46,7 @@
   .mn-wi10-m {  min-width: 128rem; }
 }
 
-@media screen and (min-width: 64em) {
+@media (--breakpoint-large) {
   .mn-wi1-l  {  min-width: 1rem; }
   .mn-wi2-l  {  min-width: 2rem; }
   .mn-wi3-l  {  min-width: 4rem; }
