@@ -1,38 +1,44 @@
 {
   "name": "css-min-width-scale",
-  "style": "min-width-scale.css",
-  "version": "1.0.7",
-  "homepage": "http://github.com/mrmrs/css-min-width-scale",
-  "description": "Css module of single purpose classes for min width scale",
+  "version": "2.0.0",
+  "description": "Functional CSS for min-width-scale",
+  "style": "dist/min-width-scale.css",
+  "main": "dist/min-width-scale.css",
+  "exports": {
+    ".": "./dist/min-width-scale.css",
+    "./dist/*": "./dist/*",
+    "./src/*": "./src/*"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "build": "node build.js",
+    "prepublishOnly": "npm run build"
+  },
   "keywords": [
     "css",
-    "oocss",
-    "min-width-scale"
+    "min-width-scale",
+    "utility",
+    "single-purpose",
+    "functional-css"
   ],
-  "css-min-width-scale": {
+  "homepage": "https://github.com/mrmrs/css-min-width-scale",
+  "repository": {
     "type": "git",
-    "url": "http://github.com/mrmrs/css-min-width-scale.git"
+    "url": "https://github.com/mrmrs/css-min-width-scale.git"
   },
   "bugs": {
-    "url": "https://github.com/mrmrs/css-min-width-scale/issues",
-    "email": "hi@mrmrs.cc"
+    "url": "https://github.com/mrmrs/css-min-width-scale/issues"
   },
   "author": {
     "name": "Adam Morse",
     "email": "hi@mrmrs.cc",
     "url": "http://mrmrs.cc"
   },
-  "contributors": [
-    {
-      "name": "Adam Morse",
-      "email": "hi@mrmrs.cc"
-    }
-  ],
-  "license": "MIT",
+  "license": "ISC",
   "devDependencies": {
     "lightningcss": "^1"
-  },
-  "scripts": {
-    "build": "node build.js"
   }
 }
