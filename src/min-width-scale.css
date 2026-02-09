@@ -13,7 +13,7 @@
 .mn-wi9  {  min-width: 96rem; }
 .mn-wi10 {  min-width: 128rem; }
 
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 32em) {
   .mn-wi1-s  {  min-width: 1rem; }
   .mn-wi2-s  {  min-width: 2rem; }
   .mn-wi3-s  {  min-width: 4rem; }
@@ -26,7 +26,7 @@
   .mn-wi10-s {  min-width: 128rem; }
 }
 
-@media screen and (min-width:48em) and (max-width: 64em) {
+@media screen and (min-width:48em) {
   .mn-wi1-m  {  min-width: 1rem; }
   .mn-wi2-m  {  min-width: 2rem; }
   .mn-wi3-m  {  min-width: 4rem; }
@@ -39,7 +39,7 @@
   .mn-wi10-m {  min-width: 128rem; }
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 96em) {
   .mn-wi1-l  {  min-width: 1rem; }
   .mn-wi2-l  {  min-width: 2rem; }
   .mn-wi3-l  {  min-width: 4rem; }
